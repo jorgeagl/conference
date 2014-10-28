@@ -4,7 +4,7 @@ var config = {
         // http://socketio-over-nodejs.nodejitsu.com:80/
         // http://webrtc-signaling.nodejitsu.com:80/
 
-        var SIGNALING_SERVER = 'http://74.208.185.184:1337/',
+        var SIGNALING_SERVER = 'http://localhost:1337/',
             defaultChannel = location.href.replace(/\/|:|#|%|\.|\[|\]/g, '');
 
         var channel = config.channel || defaultChannel;
